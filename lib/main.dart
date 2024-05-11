@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fruits_animation/home.dart';
+import 'package:flutter_fruits_animation/pages/home.dart';
 
 void main() {
   runApp(const MyApp());
