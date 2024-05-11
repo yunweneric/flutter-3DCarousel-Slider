@@ -1,6 +1,6 @@
-# flutter_fruits_animation
+# Flutter 3D Carousel Slider
 
-A new Flutter project.
+An amazing [UI Design](<[Link](https://github.com/ln-dev7/3D-Carousel-Slider-UI)>) I saw from a friend. Initially done by[LN](https://github.com/ln-dev7)
 
 ## Getting Started
 
@@ -14,3 +14,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+- [UI](https://github.com/yunweneric/flutter-3DCarousel-Slider/blob/main/3d-carousel.gif)
