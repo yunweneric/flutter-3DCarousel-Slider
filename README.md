@@ -1,6 +1,6 @@
 # Flutter 3D Carousel Slider
 
-An amazing [UI Design](<[Link](https://github.com/ln-dev7/3D-Carousel-Slider-UI)>) I saw from a friend. Initially done by[LN](https://github.com/ln-dev7)
+An amazing [UI Design](<[Link](https://github.com/ln-dev7/3D-Carousel-Slider-UI)>) I saw from a friend. Initially done by [LN](https://github.com/ln-dev7)
 
 ## Getting Started
 
@@ -15,4 +15,4 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-- [UI](https://github.com/yunweneric/flutter-3DCarousel-Slider/blob/main/3d-carousel.gif)
+<img src="https://github.com/yunweneric/flutter-3DCarousel-Slider/blob/main/3d-carousel.gif?raw=true"/>
