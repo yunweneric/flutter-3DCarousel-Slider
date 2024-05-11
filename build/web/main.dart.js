@@ -54763,7 +54763,7 @@ A.a_m.prototype={
 $0(){},
 $S:0}
 A.Aw.prototype={
-V(a){return new A.rj(B.Fv,"Flutter Demo",A.a9B(null,A.afC(B.Y,B.Fi),!0),null)}}
+V(a){return new A.rj(B.Fv,"Flutter 3D Carousel",A.a9B(null,A.afC(B.Y,B.Fi),!0),null)}}
 A.rw.prototype={
 ar(){return new A.GD(A.a([new A.ja(0,B.iO,B.zZ,"Strawberry"),new A.ja(1,B.iP,B.A3,"Orange"),new A.ja(2,B.iC,B.zm,"Apple")],t.wo),null,null,B.r)}}
 A.GD.prototype={
