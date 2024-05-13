@@ -154,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                           index: item.index,
                           activeIndex: activeIndex,
                           onTap: () {
-                            print("$item");
+                            print('$item');
                             _toggleAnimation(item.index);
                             setState(() => activeIndex = item.index);
                           },
