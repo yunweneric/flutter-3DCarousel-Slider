@@ -2,9 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_fruits_animation/components/carousel_card.dart';
-import 'package:flutter_fruits_animation/components/colors.dart';
-import 'package:flutter_fruits_animation/components/nav_bar.dart';
-import 'package:flutter_fruits_animation/components/sizing.dart';
+import 'package:flutter_fruits_animation/components/follow.dart';
+import 'package:flutter_fruits_animation/utils/colors.dart';
+import 'package:flutter_fruits_animation/utils/nav_bar.dart';
+import 'package:flutter_fruits_animation/utils/sizing.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -22,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
     HomeGradient(2, AppColors.apple, AppColors.apple_light, "Apple"),
   ];
   int activeIndex = 0;
-  final duration = const Duration(milliseconds: 1500);
+  final duration = const Duration(milliseconds: 2000);
   AnimationController? _controller;
   Animation<double>? _rotationAnimation;
   Animation<Offset>? _textTranslationAnimation;
@@ -36,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
     _toggleAnimation(2);
   }
 
-  curve(ctrl) => CurvedAnimation(parent: ctrl, curve: Curves.elasticOut);
+  CurvedAnimation curve(ctrl) => CurvedAnimation(parent: ctrl, curve: Curves.elasticOut);
   setAnimatedValues(index) {
     _rotationAnimation = Tween<double>(
       begin: index > activeIndex ? 0.4 * 3.14159 : -0.4 * 3.14159,
@@ -110,6 +111,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                 return Transform.translate(
                   offset: _fruitsTranslationAnimation?.value ?? Offset.zero,
                   child: Image.asset(
+                    // scale: 2,
                     "assets/images/fruit_$activeIndex.png",
                     fit: BoxFit.cover,
                     height: Sizing.height(context),
@@ -163,6 +165,14 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                   ),
                 ),
               ),
+            ),
+          ),
+          Positioned(
+            bottom: 10,
+            left: 0,
+            child: Follow(
+              activeIndex: activeIndex,
+              duration: duration,
             ),
           ),
           const Positioned(top: 0, child: NavBar()),

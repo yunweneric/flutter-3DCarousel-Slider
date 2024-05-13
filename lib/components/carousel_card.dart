@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fruits_animation/components/colors.dart';
-import 'package:flutter_fruits_animation/components/sizing.dart';
+import 'package:flutter_fruits_animation/utils/colors.dart';
+import 'package:flutter_fruits_animation/utils/sizing.dart';
 
 class CarouselCard extends StatefulWidget {
   final int index;

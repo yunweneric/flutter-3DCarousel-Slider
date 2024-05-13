@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fruits_animation/components/colors.dart';
+import 'package:flutter_fruits_animation/utils/colors.dart';
 import 'package:flutter_fruits_animation/pages/home.dart';
 
 void main() {
