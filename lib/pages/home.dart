@@ -111,7 +111,6 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                 return Transform.translate(
                   offset: _fruitsTranslationAnimation?.value ?? Offset.zero,
                   child: Image.asset(
-                    // scale: 2,
                     "assets/images/fruit_$activeIndex.png",
                     fit: BoxFit.cover,
                     height: Sizing.height(context),
