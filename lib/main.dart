@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fruits_animation/components/colors.dart';
 import 'package:flutter_fruits_animation/pages/home.dart';
 
 void main() {
@@ -14,8 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter 3D Carousel',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.strawberry),
         useMaterial3: true,
+        primaryColor: AppColors.strawberry,
       ),
       home: const MyHomePage(title: 'Home'),
     );

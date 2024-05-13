@@ -56,6 +56,7 @@ class _NavBarState extends State<NavBar> {
             child: InkWell(
               onTap: () {},
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   const Text("Choose Your Favorite Beer", style: TextStyle(color: AppColors.white, fontSize: 20)),
                   const SizedBox(width: 15),
